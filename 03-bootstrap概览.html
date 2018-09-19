@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--bootstrap3移动设备优先，需要在head中引入meta-->
+    <!--属性解释：
+           viewport:控制网页是否可以缩放
+           width：控制移动设备的宽度（自适应）
+           initial-scale=1.0：控制网页为1:1加载
+           maximum-scale=1.0和user-scalable=no一起使用，禁用缩放
+    -->
+    <meta name="viewport" content="width=device-width,
+                                   initial-scale=1.0,
+                                   maximum-scale=1.0,
+                                   user-scalable=no"
+    >
+
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <link rel="stylesheet" href="bootstrap/bootstrap-3.3.7-dist/css/bootstrap.css">
+</head>
+<body>
+    <!--响应式图像-->
+    <!--在bootstrap的CSS中，给img-responsive添加了属性
+    如果需要让使用了 .img-responsive 类的图片水平居中，请使用 .center-block 类，不要用 .text-center。
+    -->
+    <img src="img/TIM截图20180919111444.png" class="img-responsive" alt="响应式图像">
+</body>
+<script src="bootstrap/bootstrap-3.3.7-dist/js/jquery-1.12.4.min.js"></script>
+<script src="bootstrap/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+</html>
